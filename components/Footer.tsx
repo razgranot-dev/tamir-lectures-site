@@ -39,11 +39,11 @@ export default function Footer() {
 
         <p className="text-sm text-white/40">
           <a
-            href="mailto:tamir@example.com"
+            href="mailto:tamir@wertzbergerpr.com"
             className="hover:text-[#8B2332] transition
                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8B2332] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1A1A1A] rounded"
           >
-            tamir@example.com
+            tamir@wertzbergerpr.com
           </a>
         </p>
 
