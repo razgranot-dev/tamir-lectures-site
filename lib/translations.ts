@@ -29,7 +29,7 @@ export const translations = {
     },
     authority: {
       he: "מנהל קשרי החוץ של הליגה לפעולה והגנה באירופה | סרן (מיל\u0027) | מחבר הספר על ויקטור אורבן והונגריה",
-      en: "Director of Foreign Relations, European Jewish Association | Captain (Res.) | Author of the book on Viktor Orbán and Hungary",
+      en: "Director of Foreign Relations, Action and Protection League | Captain (Res.) | Author of the book on Viktor Orbán and Hungary",
     },
     ctaPrimary: { he: "להזמנת הרצאה", en: "Book a Lecture" },
     ctaSecondary: { he: "לנושאי ההרצאות", en: "View Lecture Topics" },
@@ -42,7 +42,7 @@ export const translations = {
     sectionTitle: { he: "על תמיר ורצברגר", en: "About Tamir Watzberger" },
     bio1: {
       he: "תמיר ורצברגר הוא מנהל קשרי החוץ של הליגה לפעולה והגנה באירופה, סרן במיל\u0027 ומומחה ליחסים בין-לאומיים ולפוליטיקה אירופית. הוא נולד וגדל במושב לימן שבגליל המערבי, וחי כיום בבודפשט.",
-      en: "Tamir Watzberger is the Director of Foreign Relations at the European Jewish Association, a Captain in the IDF reserves, and an expert in international relations and European politics. Born and raised in Moshav Liman in the Western Galilee, he currently lives in Budapest.",
+      en: "Tamir Watzberger is the Director of Foreign Relations at the Action and Protection League, a Captain in the IDF reserves, and an expert in international relations and European politics. Born and raised in Moshav Liman in the Western Galilee, he currently lives in Budapest.",
     },
     bio2: {
       he: "בעל תואר ראשון במדעי המדינה והמזרח התיכון ותואר שני ביחסים בין-לאומיים, תמיר מביא ניסיון מעשי ואקדמי רחב בהבנת הדינמיקות הפוליטיות באירופה. מתוך חיי היומיום בבודפשט והיכרות אישית עם המרחב הפוליטי ההונגרי, הוא מציע פרספקטיבה ייחודית שמחברת בין התיאוריה לשטח.",
@@ -151,10 +151,10 @@ export const translations = {
   // Book Section
   book: {
     label: { he: "הספר", en: "The Book" },
-    title: { he: "שומר הסף של אירופה", en: "Europe's Gatekeeper" },
+    title: { he: "שומר הסף של אירופה", en: "The Gatekeeper of Europe" },
     subtitle: {
       he: "ויקטור אורבן והמלחמה על עצמאות הונגריה",
-      en: "Viktor Orbán and the Fight for Hungary's Independence",
+      en: "Viktor Orban and the Hungarian Independence war",
     },
     author: { he: "מאת תמיר ורצברגר", en: "By Tamir Watzberger" },
     quote: {
@@ -167,7 +167,7 @@ export const translations = {
     },
     coverAlt: {
       he: "שומר הסף של אירופה – ויקטור אורבן והמלחמה על עצמאות הונגריה, מאת תמיר ורצברגר",
-      en: "Europe's Gatekeeper — Viktor Orbán and the Fight for Hungary's Independence, by Tamir Watzberger",
+      en: "The Gatekeeper of Europe — Viktor Orban and the Hungarian Independence war, by Tamir Watzberger",
     },
   },
 
@@ -278,7 +278,7 @@ export const translations = {
     credentials: [
       {
         he: "הליגה לפעולה והגנה באירופה",
-        en: "European Jewish Association",
+        en: "Action and Protection League",
       },
       { he: "מרצה אורח", en: "Guest Lecturer" },
       { he: "ניתוח תקשורתי", en: "Media Analysis" },
