@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-white: #FFFFFF;
+  --color-offwhite: #F7F7F5;
+  --color-warm-gray: #F0EEEB;
+  --color-red: #8B2332;
+  --color-red-hover: #722030;
+  --color-green: #2D5F3E;
+  --color-green-hover: #234A30;
+  --color-dark: #1A1A1A;
+  --color-body: #4A4A4A;
+  --color-muted: #7A7A7A;
+  --color-border: #E5E2DE;
+  --shadow-card: 0 2px 16px rgba(0, 0, 0, 0.06);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  color: #1A1A1A;
+  font-family: var(--font-heebo), "Heebo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Form input autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+select:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+  -webkit-text-fill-color: #1A1A1A;
+  border-color: #E5E2DE;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(139, 35, 50, 0.15);
+  color: #1A1A1A;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F7F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E2DE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5C2BE;
 }
